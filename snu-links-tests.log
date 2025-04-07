@@ -1,0 +1,78 @@
+2025-04-07 07:44:40.411 [main] INFO  com.snu.testing.SNULinksTests - Setting up WebDriver and WebDriverWait...
+2025-04-07 07:44:42.228 [main] DEBUG com.snu.testing.SNULinksTests - ChromeDriver initialized.
+2025-04-07 07:44:42.611 [main] DEBUG com.snu.testing.SNULinksTests - WebDriverWait initialized with 20 second timeout.
+2025-04-07 07:44:42.611 [main] INFO  com.snu.testing.SNULinksTests - Navigating to base URL: https://snulinks.snu.edu.in/
+2025-04-07 07:44:43.301 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for page body to be present...
+2025-04-07 07:44:43.321 [main] INFO  com.snu.testing.SNULinksTests - Base URL loaded and body tag found.
+2025-04-07 07:44:43.321 [main] INFO  com.snu.testing.SNULinksTests - Starting test: testFooterAcademicResearchLinkIsPresent
+2025-04-07 07:44:43.321 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for Academic Research link visibility: By.linkText: Academic Research
+2025-04-07 07:44:43.542 [main] DEBUG com.snu.testing.SNULinksTests - Scrolled to bottom of page.
+2025-04-07 07:44:43.566 [main] INFO  com.snu.testing.SNULinksTests - Academic Research link found and visible.
+2025-04-07 07:44:43.576 [main] INFO  com.snu.testing.SNULinksTests - Test Passed: testFooterAcademicResearchLinkIsPresent
+2025-04-07 07:44:43.584 [main] DEBUG com.snu.testing.SNULinksTests - Highlighted element with green: [[ChromeDriver: chrome on mac (616e65ae8cf4dd5a943306901f9a1ab7)] -> link text: Academic Research]
+2025-04-07 07:44:43.786 [main] INFO  com.snu.testing.SNULinksTests - Screenshot saved to: /Users/aaradhy_sharma/Desktop/spr25/swe/sel/snu-links-tests/target/screenshots/testFooterAcademicResearchLinkIsPresent_PASS_20250407_074443.png
+2025-04-07 07:44:43.791 [main] DEBUG com.snu.testing.SNULinksTests - Unhighlighted element: [[ChromeDriver: chrome on mac (616e65ae8cf4dd5a943306901f9a1ab7)] -> link text: Academic Research]
+2025-04-07 07:44:43.791 [main] INFO  com.snu.testing.SNULinksTests - Tearing down WebDriver...
+2025-04-07 07:44:43.881 [main] INFO  com.snu.testing.SNULinksTests - WebDriver quit successfully.
+2025-04-07 07:44:43.882 [main] INFO  com.snu.testing.SNULinksTests - Setting up WebDriver and WebDriverWait...
+2025-04-07 07:44:44.712 [main] DEBUG com.snu.testing.SNULinksTests - ChromeDriver initialized.
+2025-04-07 07:44:45.091 [main] DEBUG com.snu.testing.SNULinksTests - WebDriverWait initialized with 20 second timeout.
+2025-04-07 07:44:45.092 [main] INFO  com.snu.testing.SNULinksTests - Navigating to base URL: https://snulinks.snu.edu.in/
+2025-04-07 07:44:45.453 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for page body to be present...
+2025-04-07 07:44:45.644 [main] INFO  com.snu.testing.SNULinksTests - Base URL loaded and body tag found.
+2025-04-07 07:44:45.645 [main] INFO  com.snu.testing.SNULinksTests - Starting test: testUniversityErpLinkIsPresent
+2025-04-07 07:44:45.645 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for University ERP link visibility: By.xpath: //a[contains(normalize-space(), 'University ERP')]
+2025-04-07 07:44:45.662 [main] INFO  com.snu.testing.SNULinksTests - University ERP link found and visible.
+2025-04-07 07:44:45.670 [main] INFO  com.snu.testing.SNULinksTests - Test Passed: testUniversityErpLinkIsPresent
+2025-04-07 07:44:45.677 [main] DEBUG com.snu.testing.SNULinksTests - Highlighted element with green: [[ChromeDriver: chrome on mac (47e24a6fff1ac778bc938c37ffd669b8)] -> xpath: //a[contains(normalize-space(), 'University ERP')]]
+2025-04-07 07:44:45.868 [main] INFO  com.snu.testing.SNULinksTests - Screenshot saved to: /Users/aaradhy_sharma/Desktop/spr25/swe/sel/snu-links-tests/target/screenshots/testUniversityErpLinkIsPresent_PASS_20250407_074445.png
+2025-04-07 07:44:45.873 [main] DEBUG com.snu.testing.SNULinksTests - Unhighlighted element: [[ChromeDriver: chrome on mac (47e24a6fff1ac778bc938c37ffd669b8)] -> xpath: //a[contains(normalize-space(), 'University ERP')]]
+2025-04-07 07:44:45.873 [main] INFO  com.snu.testing.SNULinksTests - Tearing down WebDriver...
+2025-04-07 07:44:45.963 [main] INFO  com.snu.testing.SNULinksTests - WebDriver quit successfully.
+2025-04-07 07:44:45.964 [main] INFO  com.snu.testing.SNULinksTests - Setting up WebDriver and WebDriverWait...
+2025-04-07 07:44:46.779 [main] DEBUG com.snu.testing.SNULinksTests - ChromeDriver initialized.
+2025-04-07 07:44:47.155 [main] DEBUG com.snu.testing.SNULinksTests - WebDriverWait initialized with 20 second timeout.
+2025-04-07 07:44:47.155 [main] INFO  com.snu.testing.SNULinksTests - Navigating to base URL: https://snulinks.snu.edu.in/
+2025-04-07 07:44:47.555 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for page body to be present...
+2025-04-07 07:44:47.564 [main] INFO  com.snu.testing.SNULinksTests - Base URL loaded and body tag found.
+2025-04-07 07:44:47.566 [main] INFO  com.snu.testing.SNULinksTests - Starting test: testFooterCopyrightText
+2025-04-07 07:44:47.566 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for copyright text presence/visibility: By.cssSelector: footer p.text-center.text-white
+2025-04-07 07:44:47.747 [main] DEBUG com.snu.testing.SNULinksTests - Scrolled to bottom of page.
+2025-04-07 07:44:47.756 [main] INFO  com.snu.testing.SNULinksTests - Copyright element found in DOM.
+2025-04-07 07:44:47.761 [main] DEBUG com.snu.testing.SNULinksTests - Scrolled copyright element into view.
+2025-04-07 07:44:47.771 [main] INFO  com.snu.testing.SNULinksTests - Copyright element is visible.
+2025-04-07 07:44:47.790 [main] DEBUG com.snu.testing.SNULinksTests - Actual copyright text: © 2025 - Shiv Nadar (Institution of Eminence Deemed to be University).
+2025-04-07 07:44:47.790 [main] INFO  com.snu.testing.SNULinksTests - Test Passed: testFooterCopyrightText
+2025-04-07 07:44:47.798 [main] DEBUG com.snu.testing.SNULinksTests - Highlighted element with green: [[ChromeDriver: chrome on mac (1ff208fe7243840b40554ad3e1cfa0c3)] -> css selector: footer p.text-center.text-white]
+2025-04-07 07:44:47.979 [main] INFO  com.snu.testing.SNULinksTests - Screenshot saved to: /Users/aaradhy_sharma/Desktop/spr25/swe/sel/snu-links-tests/target/screenshots/testFooterCopyrightText_PASS_20250407_074447.png
+2025-04-07 07:44:47.984 [main] DEBUG com.snu.testing.SNULinksTests - Unhighlighted element: [[ChromeDriver: chrome on mac (1ff208fe7243840b40554ad3e1cfa0c3)] -> css selector: footer p.text-center.text-white]
+2025-04-07 07:44:47.984 [main] INFO  com.snu.testing.SNULinksTests - Tearing down WebDriver...
+2025-04-07 07:44:48.071 [main] INFO  com.snu.testing.SNULinksTests - WebDriver quit successfully.
+2025-04-07 07:44:48.071 [main] INFO  com.snu.testing.SNULinksTests - Setting up WebDriver and WebDriverWait...
+2025-04-07 07:44:48.903 [main] DEBUG com.snu.testing.SNULinksTests - ChromeDriver initialized.
+2025-04-07 07:44:49.282 [main] DEBUG com.snu.testing.SNULinksTests - WebDriverWait initialized with 20 second timeout.
+2025-04-07 07:44:49.282 [main] INFO  com.snu.testing.SNULinksTests - Navigating to base URL: https://snulinks.snu.edu.in/
+2025-04-07 07:44:49.511 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for page body to be present...
+2025-04-07 07:44:49.519 [main] INFO  com.snu.testing.SNULinksTests - Base URL loaded and body tag found.
+2025-04-07 07:44:49.520 [main] INFO  com.snu.testing.SNULinksTests - Starting test: testHomePageTitle
+2025-04-07 07:44:49.520 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for title to be 'SNULinks'
+2025-04-07 07:44:49.694 [main] INFO  com.snu.testing.SNULinksTests - Actual title found: 'SNULinks'
+2025-04-07 07:44:49.694 [main] INFO  com.snu.testing.SNULinksTests - Test Passed: testHomePageTitle
+2025-04-07 07:44:49.882 [main] INFO  com.snu.testing.SNULinksTests - Screenshot saved to: /Users/aaradhy_sharma/Desktop/spr25/swe/sel/snu-links-tests/target/screenshots/testHomePageTitle_PASS_20250407_074449.png
+2025-04-07 07:44:49.882 [main] INFO  com.snu.testing.SNULinksTests - Tearing down WebDriver...
+2025-04-07 07:44:49.968 [main] INFO  com.snu.testing.SNULinksTests - WebDriver quit successfully.
+2025-04-07 07:44:49.968 [main] INFO  com.snu.testing.SNULinksTests - Setting up WebDriver and WebDriverWait...
+2025-04-07 07:44:50.753 [main] DEBUG com.snu.testing.SNULinksTests - ChromeDriver initialized.
+2025-04-07 07:44:51.133 [main] DEBUG com.snu.testing.SNULinksTests - WebDriverWait initialized with 20 second timeout.
+2025-04-07 07:44:51.133 [main] INFO  com.snu.testing.SNULinksTests - Navigating to base URL: https://snulinks.snu.edu.in/
+2025-04-07 07:44:51.503 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for page body to be present...
+2025-04-07 07:44:51.511 [main] INFO  com.snu.testing.SNULinksTests - Base URL loaded and body tag found.
+2025-04-07 07:44:51.513 [main] INFO  com.snu.testing.SNULinksTests - Starting test: testLoginLinkIsPresent
+2025-04-07 07:44:51.513 [main] DEBUG com.snu.testing.SNULinksTests - Waiting for Login link visibility: By.xpath: //a[contains(@class, 'login-btn') or contains(normalize-space(), 'Login')]
+2025-04-07 07:44:51.701 [main] INFO  com.snu.testing.SNULinksTests - Login link found and visible.
+2025-04-07 07:44:51.709 [main] INFO  com.snu.testing.SNULinksTests - Test Passed: testLoginLinkIsPresent
+2025-04-07 07:44:51.720 [main] DEBUG com.snu.testing.SNULinksTests - Highlighted element with green: [[ChromeDriver: chrome on mac (092eb46c61f47988412d5173e10555ab)] -> xpath: //a[contains(@class, 'login-btn') or contains(normalize-space(), 'Login')]]
+2025-04-07 07:44:51.922 [main] INFO  com.snu.testing.SNULinksTests - Screenshot saved to: /Users/aaradhy_sharma/Desktop/spr25/swe/sel/snu-links-tests/target/screenshots/testLoginLinkIsPresent_PASS_20250407_074451.png
+2025-04-07 07:44:51.927 [main] DEBUG com.snu.testing.SNULinksTests - Unhighlighted element: [[ChromeDriver: chrome on mac (092eb46c61f47988412d5173e10555ab)] -> xpath: //a[contains(@class, 'login-btn') or contains(normalize-space(), 'Login')]]
+2025-04-07 07:44:51.927 [main] INFO  com.snu.testing.SNULinksTests - Tearing down WebDriver...
+2025-04-07 07:44:52.014 [main] INFO  com.snu.testing.SNULinksTests - WebDriver quit successfully.
